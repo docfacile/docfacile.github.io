@@ -114,6 +114,33 @@
             text-decoration: underline;
         }
 
+        .language-buttons {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .language-button {
+            display: inline-block;
+            padding: 8px 16px;
+            margin: 0 5px;
+            background-color: #f5f5f5;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            color: #333;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .language-button:hover {
+            background-color: #e5e5e5;
+        }
+
+        .language-button.active {
+            background-color: #0066cc;
+            color: white;
+            border-color: #0066cc;
+        }
+
         .rights-list ul {
             list-style: disc;
             padding-left: 18px;
@@ -205,6 +232,10 @@
     <div class="header">
         <h1>Politique de Confidentialité</h1>
         <div class="updated">Mise à jour le 14/06/2025</div>
+    </div>
+    <div class="language-buttons">
+        <a href="/en/" class="language-button">EN</a>
+        <a href="/fr/" class="language-button active">FR</a>
     </div>
             <div class="intro">
                 <p><strong>DocFacile</strong> ("nous," "notre," ou "nos") s'engage à protéger votre vie privée. Cette Politique de Confidentialité explique comment vos informations personnelles sont collectées, utilisées et divulguées par DocFacile.</p>
